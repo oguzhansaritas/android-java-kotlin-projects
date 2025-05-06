@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/mv_image"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mc"
+            android:scaleType="centerCrop"/>
+
+
+        <TextView
+            android:id="@+id/mv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mc Donald's"
+            android:layout_toRightOf="@+id/mv_image"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/baloo"/>
+
+        <RatingBar
+            android:id="@+id/mv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_below="@id/mv_title"
+            android:layout_toRightOf="@id/mv_image"
+            android:layout_marginLeft="10dp"
+            android:rating="4"/>
+
+        <TextView
+            android:id="@+id/mv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back in 1954, a man named Ray Kroc discovered a small burger restaurant in California,
+            and wrote the first page of our history. From humble beginnings as a small restaurant,
+            we're proud to have become one of the world's leading food service brands with more than 36,000 restaurants in more than 100 countries."
+            android:layout_below="@id/mv_rating"
+            android:layout_toRightOf="@id/mv_image"
+            android:padding="10dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

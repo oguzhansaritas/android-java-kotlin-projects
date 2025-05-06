@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SignInSignUp_Example</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="retailer_heading">Grow\nYour Bussiness</string>
+    <string name="retailer_tag_line">We will help you to grow your bussiness using online services!</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="how_we_work">How We Work?</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="forget_password_detail">Provide your account\'s email for which you want to reset your password!</string>
+    <string name="make_selection_detail">Select which contact detail should we use to reset your password?</string>
+    <string name="make_selection">MAKE SELECTION</string>
+
+
+    <string name="home">HOME</string>
+    <string name="search">SEARCH</string>
+    <string name="all_categories">ALL CATEGORIES</string>
+    <string name="login">Login</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate us</string>
+    <string name="add_missing_Place">ADD MISSING PLACE</string>
+
+    <string name="otp_code_text">CO\nDE</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_description_text">Enter one time password sent on\n+905555555555</string>
+
+    <string name="new_credintials_detail">Your identity has been verified! Set your new password</string>
+
+</resources>

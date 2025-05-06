@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "503678750161",
+    "firebase_url": "https://signinsignup-example-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "signinsignup-example",
+    "storage_bucket": "signinsignup-example.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503678750161:android:7c032592dc05d55a8564f0",
+        "android_client_info": {
+          "package_name": "com.example.signinsignup_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503678750161-r7e6ltnlsquiioikpj4lp2ctnrcogj8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXlFLsjTTgQoSTPdwerKNwAS0welYuydo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503678750161-r7e6ltnlsquiioikpj4lp2ctnrcogj8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

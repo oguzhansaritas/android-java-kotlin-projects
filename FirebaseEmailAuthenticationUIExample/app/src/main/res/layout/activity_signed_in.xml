@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignedInActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:dividerPadding="5dp">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        android:onClick="onLogout"
+        android:padding="5dp"
+        android:text="@string/btn_sign_out"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFEB3B"
+        android:onClick="onGetUserInformation"
+        android:text="Get User Information"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFEB3B"
+        android:onClick="onUpdateUserProfile"
+        android:text="Update User Profile"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="175dp"
+        tools:text="Update User Profile" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFEB3B"
+        android:onClick="onUpdateUserEmail"
+        android:text="Update User Email"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFEB3B"
+        android:onClick="onSendVerificationEmail"
+        android:text="Send Verification Email"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFEB3B"
+        android:onClick="onSetPassword"
+        android:text="Set Password"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFEB3B"
+        android:onClick="onSendPasswordReset"
+        android:text="Send Password Reset"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFEB3B"
+        android:onClick="onDeleteUser"
+        android:text="Delete User"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFEB3B"
+        android:onClick="onReauthenticateUser"
+        android:text="Reauthenticate User"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</LinearLayout>

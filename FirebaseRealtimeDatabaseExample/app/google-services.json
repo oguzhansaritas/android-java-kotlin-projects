@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "964073628061",
+    "project_id": "testing-6e41e",
+    "storage_bucket": "testing-6e41e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964073628061:android:4d81b3ece000c0822c4f74",
+        "android_client_info": {
+          "package_name": "baristuzemen.firebaserealtimedatabaseexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964073628061-qi5rusn197fsb2tvfntiflngecbm8v85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHTu3vH7XAgeMldWkhdF3gF6zTQqZ1rfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964073628061-qi5rusn197fsb2tvfntiflngecbm8v85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

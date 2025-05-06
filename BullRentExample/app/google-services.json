@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "366540380570",
+    "firebase_url": "https://bullrentexample-default-rtdb.firebaseio.com",
+    "project_id": "bullrentexample",
+    "storage_bucket": "bullrentexample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366540380570:android:c16f9db623edb696ae4223",
+        "android_client_info": {
+          "package_name": "com.baristuzemen.bullrentexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366540380570-297k40mp9c5e2b0dmdjsar3vkendnn3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQuVC5eYS-C_a0nbqDZi7CPNoz4T2nRcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366540380570-297k40mp9c5e2b0dmdjsar3vkendnn3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
